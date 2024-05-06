@@ -1,0 +1,2770 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Universal = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local A = Instance.new("TextLabel")
+local GradColor = Instance.new("UIGradient")
+local B = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local GradColor_2 = Instance.new("UIGradient")
+local GradColor_3 = Instance.new("UIGradient")
+local UIGradient = Instance.new("UIGradient")
+local Shadow = Instance.new("ImageLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local OpenClose = Instance.new("ImageButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local GradColor_4 = Instance.new("UIGradient")
+local UIGradient_3 = Instance.new("UIGradient")
+local Shadow_2 = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Main = Instance.new("Frame")
+local Menu = Instance.new("Frame")
+local ccc = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Toggle = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local GradColor_5 = Instance.new("UIGradient")
+local Frame_5 = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Subtitle = Instance.new("TextLabel")
+local GradColor_6 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local aaa = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local Toggle_2 = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local GradColor_7 = Instance.new("UIGradient")
+local Frame_7 = Instance.new("Frame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Subtitle_2 = Instance.new("TextLabel")
+local GradColor_8 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local Fov = Instance.new("Frame")
+local Title_3 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local GradColor_9 = Instance.new("UIGradient")
+local Frame_8 = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local TextBox = Instance.new("TextBox")
+local UICorner_12 = Instance.new("UICorner")
+local Subtitle_3 = Instance.new("TextLabel")
+local GradColor_10 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local wallcheck = Instance.new("Frame")
+local Title_4 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local GradColor_11 = Instance.new("UIGradient")
+local Frame_9 = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Subtitle_4 = Instance.new("TextLabel")
+local GradColor_12 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local teamcheck = Instance.new("Frame")
+local Title_5 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local GradColor_13 = Instance.new("UIGradient")
+local Frame_10 = Instance.new("Frame")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Subtitle_5 = Instance.new("TextLabel")
+local GradColor_14 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+local PageSystem = Instance.new("UIPageLayout")
+local bbb = Instance.new("Frame")
+local Frame_11 = Instance.new("Frame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local Toggle_3 = Instance.new("Frame")
+local Title_6 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local GradColor_15 = Instance.new("UIGradient")
+local Frame_12 = Instance.new("Frame")
+local UIListLayout_6 = Instance.new("UIListLayout")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Subtitle_6 = Instance.new("TextLabel")
+local GradColor_16 = Instance.new("UIGradient")
+local UICorner_22 = Instance.new("UICorner")
+local Fov_2 = Instance.new("Frame")
+local Title_7 = Instance.new("TextLabel")
+local UICorner_23 = Instance.new("UICorner")
+local GradColor_17 = Instance.new("UIGradient")
+local Frame_13 = Instance.new("Frame")
+local UIListLayout_7 = Instance.new("UIListLayout")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local Subtitle_7 = Instance.new("TextLabel")
+local GradColor_18 = Instance.new("UIGradient")
+local UICorner_25 = Instance.new("UICorner")
+local ddd = Instance.new("Frame")
+local Frame_14 = Instance.new("Frame")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
+local Toggle_4 = Instance.new("Frame")
+local Title_8 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local GradColor_19 = Instance.new("UIGradient")
+local Frame_15 = Instance.new("Frame")
+local UIListLayout_8 = Instance.new("UIListLayout")
+local TextLabel_2 = Instance.new("TextLabel")
+local Subtitle_8 = Instance.new("TextLabel")
+local GradColor_20 = Instance.new("UIGradient")
+local UICorner_27 = Instance.new("UICorner")
+local Nottoggle = Instance.new("Frame")
+local Title_9 = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local GradColor_21 = Instance.new("UIGradient")
+local Frame_16 = Instance.new("Frame")
+local UIListLayout_9 = Instance.new("UIListLayout")
+local TextLabel_3 = Instance.new("TextLabel")
+local Subtitle_9 = Instance.new("TextLabel")
+local GradColor_22 = Instance.new("UIGradient")
+local UICorner_29 = Instance.new("UICorner")
+local Background = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local UIGradient_6 = Instance.new("UIGradient")
+local Shadow_3 = Instance.new("ImageLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local Frame_17 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local Title_10 = Instance.new("TextLabel")
+local GradColor_23 = Instance.new("UIGradient")
+local Time = Instance.new("TextLabel")
+local GradColor_24 = Instance.new("UIGradient")
+local Frame_18 = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local Select = Instance.new("Folder")
+local Frame_19 = Instance.new("Frame")
+local UIListLayout_10 = Instance.new("UIListLayout")
+local cheat = Instance.new("Frame")
+local UIListLayout_11 = Instance.new("UIListLayout")
+local Settings = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local GradColor_25 = Instance.new("UIGradient")
+local Color = Instance.new("UIGradient")
+local speed = Instance.new("Frame")
+local UIListLayout_12 = Instance.new("UIListLayout")
+local Settings_2 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local GradColor_26 = Instance.new("UIGradient")
+local Color_2 = Instance.new("UIGradient")
+local tab = Instance.new("Frame")
+local UIListLayout_13 = Instance.new("UIListLayout")
+local Settings_3 = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local GradColor_27 = Instance.new("UIGradient")
+local Color_3 = Instance.new("UIGradient")
+local info = Instance.new("Frame")
+local UIListLayout_14 = Instance.new("UIListLayout")
+local Settings_4 = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local GradColor_28 = Instance.new("UIGradient")
+local Color_4 = Instance.new("UIGradient")
+local UICorner_37 = Instance.new("UICorner")
+
+--Properties:
+
+Universal.Name = "Universal"
+Universal.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Universal.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Universal.DisplayOrder = 2147483647
+Universal.ResetOnSpawn = false
+
+Frame.Parent = Universal
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(0, 300, 0, 100)
+
+A.Name = "A"
+A.Parent = Frame
+A.AnchorPoint = Vector2.new(0.5, 0)
+A.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+A.BackgroundTransparency = 1.000
+A.BorderSizePixel = 0
+A.Position = UDim2.new(0.5, 0, 0, 0)
+A.Size = UDim2.new(0, 200, 0, 50)
+A.Font = Enum.Font.SourceSans
+A.Text = "Universal"
+A.TextColor3 = Color3.fromRGB(255, 255, 255)
+A.TextSize = 24.000
+A.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+A.TextTransparency = 1.000
+
+GradColor.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor.Name = "GradColor"
+GradColor.Parent = A
+
+B.Name = "B"
+B.Parent = Frame
+B.AnchorPoint = Vector2.new(0.5, 0)
+B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B.BackgroundTransparency = 1.000
+B.BorderSizePixel = 0
+B.Position = UDim2.new(0.5, 0, 1, -30)
+B.Size = UDim2.new(0, 200, 0, 30)
+B.Font = Enum.Font.SourceSans
+B.Text = "BETA"
+B.TextColor3 = Color3.fromRGB(255, 255, 255)
+B.TextSize = 18.000
+B.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+B.TextTransparency = 1.000
+
+Frame_2.Parent = Frame
+Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame_2.Size = UDim2.new(0, 230, 0, 10)
+
+UICorner.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BackgroundTransparency = 1.000
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 0, 1, 0)
+
+UICorner_2.Parent = Frame_3
+
+GradColor_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_2.Name = "GradColor"
+GradColor_2.Parent = Frame_3
+
+GradColor_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_3.Name = "GradColor"
+GradColor_3.Parent = Frame_2
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient.Parent = Frame
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Frame
+Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
+Shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow.BackgroundTransparency = 1.000
+Shadow.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Shadow.BorderSizePixel = 0
+Shadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+Shadow.Size = UDim2.new(1, 20, 1, 20)
+Shadow.ZIndex = -1
+Shadow.Image = "rbxassetid://13960019127"
+Shadow.ImageColor3 = Color3.fromRGB(25, 25, 25)
+Shadow.ImageTransparency = 1.000
+Shadow.ScaleType = Enum.ScaleType.Fit
+Shadow.SliceCenter = Rect.new(23, 23, 277, 277)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient_2.Parent = Shadow
+
+UICorner_3.Parent = Frame
+
+OpenClose.Name = "Open/Close"
+OpenClose.Parent = Universal
+OpenClose.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+OpenClose.BackgroundTransparency = 0.100
+OpenClose.Position = UDim2.new(0, 10, 1, -60)
+OpenClose.Size = UDim2.new(0, 50, 0, 50)
+OpenClose.Visible = false
+OpenClose.ZIndex = 1000000000
+OpenClose.AutoButtonColor = false
+OpenClose.ScaleType = Enum.ScaleType.Fit
+
+UICorner_4.Parent = OpenClose
+
+TextLabel.Parent = OpenClose
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.ZIndex = 2147483647
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "🌀"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextTransparency = 1.000
+
+GradColor_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_4.Name = "GradColor"
+GradColor_4.Parent = TextLabel
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient_3.Parent = OpenClose
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = OpenClose
+Shadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Shadow_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_2.BackgroundTransparency = 1.000
+Shadow_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Shadow_2.Size = UDim2.new(1, 18, 1, 18)
+Shadow_2.Visible = false
+Shadow_2.ZIndex = -1
+Shadow_2.Image = "rbxassetid://13960012399"
+Shadow_2.ImageColor3 = Color3.fromRGB(25, 25, 25)
+Shadow_2.ScaleType = Enum.ScaleType.Fit
+Shadow_2.SliceCenter = Rect.new(23, 23, 277, 277)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient_4.Parent = Shadow_2
+
+Main.Name = "Main"
+Main.Parent = Universal
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Main.BackgroundTransparency = 0.150
+Main.BorderSizePixel = 0
+Main.ClipsDescendants = true
+Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+Main.Size = UDim2.new(0, 600, 0, 400)
+Main.Visible = false
+
+Menu.Name = "Menu"
+Menu.Parent = Main
+Menu.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Menu.BackgroundTransparency = 1.000
+Menu.BorderSizePixel = 0
+Menu.ClipsDescendants = true
+Menu.Position = UDim2.new(0, 150, 0, 0)
+Menu.Size = UDim2.new(0, 450, 0, 400)
+Menu.ZIndex = 0
+
+ccc.Name = "ccc"
+ccc.Parent = Menu
+ccc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ccc.BackgroundTransparency = 1.000
+ccc.BorderSizePixel = 0
+ccc.Size = UDim2.new(0, 450, 0, 400)
+ccc.ZIndex = 0
+
+Frame_4.Parent = ccc
+Frame_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 10, 0, 10)
+Frame_4.Size = UDim2.new(0, 430, 0, 380)
+
+UIGridLayout.Parent = Frame_4
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+UIGridLayout.CellSize = UDim2.new(0, 210, 0, 110)
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Frame_4
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BackgroundTransparency = 0.900
+Toggle.BorderSizePixel = 0
+Toggle.Size = UDim2.new(0, 210, 0, 110)
+
+Title.Name = "Title"
+Title.Parent = Toggle
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BackgroundTransparency = 0.900
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 210, 0, 20)
+Title.Font = Enum.Font.Roboto
+Title.Text = "Esp"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+Title.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextStrokeTransparency = 0.900
+
+UICorner_5.Parent = Title
+
+GradColor_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_5.Name = "GradColor"
+GradColor_5.Parent = Title
+
+Frame_5.Parent = Toggle
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1.000
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_5.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout.Parent = Frame_5
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout.Padding = UDim.new(0, 15)
+
+TextButton.Parent = Frame_5
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundTransparency = 0.900
+TextButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 50, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "esp"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner_6.Parent = TextButton
+
+Subtitle.Name = "Subtitle"
+Subtitle.Parent = Toggle
+Subtitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle.BackgroundTransparency = 1.000
+Subtitle.BorderSizePixel = 0
+Subtitle.Position = UDim2.new(0, 0, 0, 20)
+Subtitle.Size = UDim2.new(0, 210, 0, 20)
+Subtitle.Font = Enum.Font.Roboto
+Subtitle.Text = "Toggle Esp"
+Subtitle.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle.TextSize = 14.000
+Subtitle.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle.TextStrokeTransparency = 0.900
+
+GradColor_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_6.Name = "GradColor"
+GradColor_6.Parent = Subtitle
+
+UICorner_7.Parent = Toggle
+
+aaa.Name = "aaa"
+aaa.Parent = Menu
+aaa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aaa.BackgroundTransparency = 1.000
+aaa.BorderSizePixel = 0
+aaa.Size = UDim2.new(0, 450, 0, 400)
+aaa.ZIndex = 0
+
+Frame_6.Parent = aaa
+Frame_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BackgroundTransparency = 1.000
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 10, 0, 10)
+Frame_6.Size = UDim2.new(0, 430, 0, 380)
+
+UIGridLayout_2.Parent = Frame_6
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 10, 0, 10)
+UIGridLayout_2.CellSize = UDim2.new(0, 210, 0, 110)
+
+Toggle_2.Name = "Toggle"
+Toggle_2.Parent = Frame_6
+Toggle_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle_2.BackgroundTransparency = 0.900
+Toggle_2.BorderSizePixel = 0
+Toggle_2.Size = UDim2.new(0, 210, 0, 110)
+
+Title_2.Name = "Title"
+Title_2.Parent = Toggle_2
+Title_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BackgroundTransparency = 0.900
+Title_2.BorderSizePixel = 0
+Title_2.Size = UDim2.new(0, 210, 0, 20)
+Title_2.Font = Enum.Font.Roboto
+Title_2.Text = "Aimbot"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 14.000
+Title_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextStrokeTransparency = 0.900
+
+UICorner_8.Parent = Title_2
+
+GradColor_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_7.Name = "GradColor"
+GradColor_7.Parent = Title_2
+
+Frame_7.Parent = Toggle_2
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BackgroundTransparency = 1.000
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_7.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_2.Parent = Frame_7
+UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_2.Padding = UDim.new(0, 15)
+
+TextButton_2.Parent = Frame_7
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundTransparency = 0.900
+TextButton_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(0, 50, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "aimbot"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+UICorner_9.Parent = TextButton_2
+
+Subtitle_2.Name = "Subtitle"
+Subtitle_2.Parent = Toggle_2
+Subtitle_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_2.BackgroundTransparency = 1.000
+Subtitle_2.BorderSizePixel = 0
+Subtitle_2.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_2.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_2.Font = Enum.Font.Roboto
+Subtitle_2.Text = "Toggle Aimbot"
+Subtitle_2.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_2.TextSize = 14.000
+Subtitle_2.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_2.TextStrokeTransparency = 0.900
+
+GradColor_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_8.Name = "GradColor"
+GradColor_8.Parent = Subtitle_2
+
+UICorner_10.Parent = Toggle_2
+
+Fov.Name = "Fov"
+Fov.Parent = Frame_6
+Fov.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fov.BackgroundTransparency = 0.900
+Fov.BorderSizePixel = 0
+Fov.Size = UDim2.new(0, 210, 0, 110)
+
+Title_3.Name = "Title"
+Title_3.Parent = Fov
+Title_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BackgroundTransparency = 0.900
+Title_3.BorderSizePixel = 0
+Title_3.Size = UDim2.new(0, 210, 0, 20)
+Title_3.Font = Enum.Font.Roboto
+Title_3.Text = "Aimbot"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 14.000
+Title_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextStrokeTransparency = 0.900
+
+UICorner_11.Parent = Title_3
+
+GradColor_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_9.Name = "GradColor"
+GradColor_9.Parent = Title_3
+
+Frame_8.Parent = Fov
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1.000
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_8.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_3.Parent = Frame_8
+UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_3.Padding = UDim.new(0, 15)
+
+TextBox.Parent = Frame_8
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BackgroundTransparency = 0.900
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.BorderSizePixel = 0
+TextBox.Size = UDim2.new(0, 50, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Text = "0"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+UICorner_12.Parent = TextBox
+
+Subtitle_3.Name = "Subtitle"
+Subtitle_3.Parent = Fov
+Subtitle_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_3.BackgroundTransparency = 1.000
+Subtitle_3.BorderSizePixel = 0
+Subtitle_3.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_3.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_3.Font = Enum.Font.Roboto
+Subtitle_3.Text = "Fov"
+Subtitle_3.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_3.TextSize = 14.000
+Subtitle_3.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_3.TextStrokeTransparency = 0.900
+
+GradColor_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_10.Name = "GradColor"
+GradColor_10.Parent = Subtitle_3
+
+UICorner_13.Parent = Fov
+
+wallcheck.Name = "wallcheck"
+wallcheck.Parent = Frame_6
+wallcheck.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+wallcheck.BackgroundTransparency = 0.900
+wallcheck.BorderSizePixel = 0
+wallcheck.Size = UDim2.new(0, 210, 0, 110)
+
+Title_4.Name = "Title"
+Title_4.Parent = wallcheck
+Title_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_4.BackgroundTransparency = 0.900
+Title_4.BorderSizePixel = 0
+Title_4.Size = UDim2.new(0, 210, 0, 20)
+Title_4.Font = Enum.Font.Roboto
+Title_4.Text = "Aimbot"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextSize = 14.000
+Title_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextStrokeTransparency = 0.900
+
+UICorner_14.Parent = Title_4
+
+GradColor_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_11.Name = "GradColor"
+GradColor_11.Parent = Title_4
+
+Frame_9.Parent = wallcheck
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 1.000
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_9.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_4.Parent = Frame_9
+UIListLayout_4.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_4.Padding = UDim.new(0, 15)
+
+TextButton_3.Parent = Frame_9
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BackgroundTransparency = 0.900
+TextButton_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(0, 50, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Wall Check"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+UICorner_15.Parent = TextButton_3
+
+Subtitle_4.Name = "Subtitle"
+Subtitle_4.Parent = wallcheck
+Subtitle_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_4.BackgroundTransparency = 1.000
+Subtitle_4.BorderSizePixel = 0
+Subtitle_4.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_4.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_4.Font = Enum.Font.Roboto
+Subtitle_4.Text = "Wall Check"
+Subtitle_4.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_4.TextSize = 14.000
+Subtitle_4.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_4.TextStrokeTransparency = 0.900
+
+GradColor_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_12.Name = "GradColor"
+GradColor_12.Parent = Subtitle_4
+
+UICorner_16.Parent = wallcheck
+
+teamcheck.Name = "teamcheck"
+teamcheck.Parent = Frame_6
+teamcheck.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+teamcheck.BackgroundTransparency = 0.900
+teamcheck.BorderSizePixel = 0
+teamcheck.Size = UDim2.new(0, 210, 0, 110)
+
+Title_5.Name = "Title"
+Title_5.Parent = teamcheck
+Title_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_5.BackgroundTransparency = 0.900
+Title_5.BorderSizePixel = 0
+Title_5.Size = UDim2.new(0, 210, 0, 20)
+Title_5.Font = Enum.Font.Roboto
+Title_5.Text = "Aimbot"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextSize = 14.000
+Title_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextStrokeTransparency = 0.900
+
+UICorner_17.Parent = Title_5
+
+GradColor_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_13.Name = "GradColor"
+GradColor_13.Parent = Title_5
+
+Frame_10.Parent = teamcheck
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BackgroundTransparency = 1.000
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_10.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_5.Parent = Frame_10
+UIListLayout_5.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_5.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_5.Padding = UDim.new(0, 15)
+
+TextButton_4.Parent = Frame_10
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BackgroundTransparency = 0.900
+TextButton_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(0, 50, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Team Check"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+UICorner_18.Parent = TextButton_4
+
+Subtitle_5.Name = "Subtitle"
+Subtitle_5.Parent = teamcheck
+Subtitle_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_5.BackgroundTransparency = 1.000
+Subtitle_5.BorderSizePixel = 0
+Subtitle_5.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_5.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_5.Font = Enum.Font.Roboto
+Subtitle_5.Text = "Team Check"
+Subtitle_5.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_5.TextSize = 14.000
+Subtitle_5.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_5.TextStrokeTransparency = 0.900
+
+GradColor_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_14.Name = "GradColor"
+GradColor_14.Parent = Subtitle_5
+
+UICorner_19.Parent = teamcheck
+
+PageSystem.Name = "PageSystem"
+PageSystem.Parent = Menu
+PageSystem.FillDirection = Enum.FillDirection.Vertical
+PageSystem.HorizontalAlignment = Enum.HorizontalAlignment.Center
+PageSystem.VerticalAlignment = Enum.VerticalAlignment.Center
+PageSystem.EasingDirection = Enum.EasingDirection.InOut
+PageSystem.EasingStyle = Enum.EasingStyle.Cubic
+PageSystem.GamepadInputEnabled = false
+PageSystem.ScrollWheelInputEnabled = false
+PageSystem.TouchInputEnabled = false
+
+bbb.Name = "bbb"
+bbb.Parent = Menu
+bbb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bbb.BackgroundTransparency = 1.000
+bbb.BorderSizePixel = 0
+bbb.Size = UDim2.new(0, 450, 0, 400)
+bbb.ZIndex = 0
+
+Frame_11.Parent = bbb
+Frame_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_11.BackgroundTransparency = 1.000
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0, 10, 0, 10)
+Frame_11.Size = UDim2.new(0, 430, 0, 380)
+
+UIGridLayout_3.Parent = Frame_11
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellPadding = UDim2.new(0, 10, 0, 10)
+UIGridLayout_3.CellSize = UDim2.new(0, 210, 0, 110)
+
+Toggle_3.Name = "Toggle"
+Toggle_3.Parent = Frame_11
+Toggle_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle_3.BackgroundTransparency = 0.900
+Toggle_3.BorderSizePixel = 0
+Toggle_3.Size = UDim2.new(0, 210, 0, 110)
+
+Title_6.Name = "Title"
+Title_6.Parent = Toggle_3
+Title_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_6.BackgroundTransparency = 0.900
+Title_6.BorderSizePixel = 0
+Title_6.Size = UDim2.new(0, 210, 0, 20)
+Title_6.Font = Enum.Font.Roboto
+Title_6.Text = "Speed"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextSize = 14.000
+Title_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextStrokeTransparency = 0.900
+
+UICorner_20.Parent = Title_6
+
+GradColor_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_15.Name = "GradColor"
+GradColor_15.Parent = Title_6
+
+Frame_12.Parent = Toggle_3
+Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_12.BackgroundTransparency = 1.000
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_12.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_6.Parent = Frame_12
+UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_6.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_6.Padding = UDim.new(0, 15)
+
+TextButton_5.Parent = Frame_12
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BackgroundTransparency = 0.900
+TextButton_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Size = UDim2.new(0, 50, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "speed"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+UICorner_21.Parent = TextButton_5
+
+Subtitle_6.Name = "Subtitle"
+Subtitle_6.Parent = Toggle_3
+Subtitle_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_6.BackgroundTransparency = 1.000
+Subtitle_6.BorderSizePixel = 0
+Subtitle_6.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_6.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_6.Font = Enum.Font.Roboto
+Subtitle_6.Text = "Toggle Speed"
+Subtitle_6.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_6.TextSize = 14.000
+Subtitle_6.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_6.TextStrokeTransparency = 0.900
+
+GradColor_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_16.Name = "GradColor"
+GradColor_16.Parent = Subtitle_6
+
+UICorner_22.Parent = Toggle_3
+
+Fov_2.Name = "Fov"
+Fov_2.Parent = Frame_11
+Fov_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fov_2.BackgroundTransparency = 0.900
+Fov_2.BorderSizePixel = 0
+Fov_2.Size = UDim2.new(0, 210, 0, 110)
+
+Title_7.Name = "Title"
+Title_7.Parent = Fov_2
+Title_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_7.BackgroundTransparency = 0.900
+Title_7.BorderSizePixel = 0
+Title_7.Size = UDim2.new(0, 210, 0, 20)
+Title_7.Font = Enum.Font.Roboto
+Title_7.Text = "Speed"
+Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextSize = 14.000
+Title_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextStrokeTransparency = 0.900
+
+UICorner_23.Parent = Title_7
+
+GradColor_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_17.Name = "GradColor"
+GradColor_17.Parent = Title_7
+
+Frame_13.Parent = Fov_2
+Frame_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_13.BackgroundTransparency = 1.000
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_13.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_7.Parent = Frame_13
+UIListLayout_7.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_7.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_7.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_7.Padding = UDim.new(0, 15)
+
+TextBox_2.Parent = Frame_13
+TextBox_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BackgroundTransparency = 0.900
+TextBox_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Size = UDim2.new(0, 50, 0, 50)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.Text = "0"
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
+
+UICorner_24.Parent = TextBox_2
+
+Subtitle_7.Name = "Subtitle"
+Subtitle_7.Parent = Fov_2
+Subtitle_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_7.BackgroundTransparency = 1.000
+Subtitle_7.BorderSizePixel = 0
+Subtitle_7.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_7.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_7.Font = Enum.Font.Roboto
+Subtitle_7.Text = "Adjust Speed"
+Subtitle_7.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_7.TextSize = 14.000
+Subtitle_7.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_7.TextStrokeTransparency = 0.900
+
+GradColor_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_18.Name = "GradColor"
+GradColor_18.Parent = Subtitle_7
+
+UICorner_25.Parent = Fov_2
+
+ddd.Name = "ddd"
+ddd.Parent = Menu
+ddd.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ddd.BackgroundTransparency = 1.000
+ddd.BorderSizePixel = 0
+ddd.Size = UDim2.new(0, 450, 0, 400)
+ddd.ZIndex = 0
+
+Frame_14.Parent = ddd
+Frame_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_14.BackgroundTransparency = 1.000
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0, 10, 0, 10)
+Frame_14.Size = UDim2.new(0, 430, 0, 380)
+
+UIGridLayout_4.Parent = Frame_14
+UIGridLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.CellPadding = UDim2.new(0, 10, 0, 10)
+UIGridLayout_4.CellSize = UDim2.new(0, 210, 0, 110)
+
+Toggle_4.Name = "Toggle"
+Toggle_4.Parent = Frame_14
+Toggle_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle_4.BackgroundTransparency = 0.900
+Toggle_4.BorderSizePixel = 0
+Toggle_4.Size = UDim2.new(0, 210, 0, 110)
+
+Title_8.Name = "Title"
+Title_8.Parent = Toggle_4
+Title_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_8.BackgroundTransparency = 0.900
+Title_8.BorderSizePixel = 0
+Title_8.Size = UDim2.new(0, 210, 0, 20)
+Title_8.Font = Enum.Font.Roboto
+Title_8.Text = "Info"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextSize = 14.000
+Title_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextStrokeTransparency = 0.900
+
+UICorner_26.Parent = Title_8
+
+GradColor_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_19.Name = "GradColor"
+GradColor_19.Parent = Title_8
+
+Frame_15.Parent = Toggle_4
+Frame_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_15.BackgroundTransparency = 1.000
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_15.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_8.Parent = Frame_15
+UIListLayout_8.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_8.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_8.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_8.Padding = UDim.new(0, 15)
+
+TextLabel_2.Parent = Frame_15
+TextLabel_2.Active = true
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 0.900
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "NIL"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+Subtitle_8.Name = "Subtitle"
+Subtitle_8.Parent = Toggle_4
+Subtitle_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_8.BackgroundTransparency = 1.000
+Subtitle_8.BorderSizePixel = 0
+Subtitle_8.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_8.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_8.Font = Enum.Font.Roboto
+Subtitle_8.Text = "User Name"
+Subtitle_8.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_8.TextSize = 14.000
+Subtitle_8.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_8.TextStrokeTransparency = 0.900
+
+GradColor_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_20.Name = "GradColor"
+GradColor_20.Parent = Subtitle_8
+
+UICorner_27.Parent = Toggle_4
+
+Nottoggle.Name = "Nottoggle"
+Nottoggle.Parent = Frame_14
+Nottoggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Nottoggle.BackgroundTransparency = 0.900
+Nottoggle.BorderSizePixel = 0
+Nottoggle.Size = UDim2.new(0, 210, 0, 110)
+
+Title_9.Name = "Title"
+Title_9.Parent = Nottoggle
+Title_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_9.BackgroundTransparency = 0.900
+Title_9.BorderSizePixel = 0
+Title_9.Size = UDim2.new(0, 210, 0, 20)
+Title_9.Font = Enum.Font.Roboto
+Title_9.Text = "Info"
+Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.TextSize = 14.000
+Title_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.TextStrokeTransparency = 0.900
+
+UICorner_28.Parent = Title_9
+
+GradColor_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_21.Name = "GradColor"
+GradColor_21.Parent = Title_9
+
+Frame_16.Parent = Nottoggle
+Frame_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_16.BackgroundTransparency = 1.000
+Frame_16.BorderSizePixel = 0
+Frame_16.Position = UDim2.new(0, 0, 0.200000003, 0)
+Frame_16.Size = UDim2.new(0, 210, 0, 75)
+
+UIListLayout_9.Parent = Frame_16
+UIListLayout_9.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_9.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_9.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_9.Padding = UDim.new(0, 15)
+
+TextLabel_3.Parent = Frame_16
+TextLabel_3.Active = true
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 0.900
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "NIL"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+Subtitle_9.Name = "Subtitle"
+Subtitle_9.Parent = Nottoggle
+Subtitle_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Subtitle_9.BackgroundTransparency = 1.000
+Subtitle_9.BorderSizePixel = 0
+Subtitle_9.Position = UDim2.new(0, 0, 0, 20)
+Subtitle_9.Size = UDim2.new(0, 210, 0, 20)
+Subtitle_9.Font = Enum.Font.Roboto
+Subtitle_9.Text = "Game Name"
+Subtitle_9.TextColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_9.TextSize = 14.000
+Subtitle_9.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+Subtitle_9.TextStrokeTransparency = 0.900
+
+GradColor_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+GradColor_22.Name = "GradColor"
+GradColor_22.Parent = Subtitle_9
+
+UICorner_29.Parent = Nottoggle
+
+Background.Name = "Background"
+Background.Parent = Main
+Background.AnchorPoint = Vector2.new(0.5, 0.5)
+Background.BackgroundColor3 = Color3.fromRGB(17, 22, 25)
+Background.BackgroundTransparency = 0.350
+Background.BorderSizePixel = 0
+Background.Position = UDim2.new(0.5, 0, 0.5, 0)
+
+UICorner_30.CornerRadius = UDim.new(1, 0)
+UICorner_30.Parent = Background
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient_5.Parent = Background
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient_6.Parent = Main
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = Main
+Shadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Shadow_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_3.BackgroundTransparency = 1.000
+Shadow_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Shadow_3.Size = UDim2.new(1, 18, 1, 18)
+Shadow_3.Visible = false
+Shadow_3.ZIndex = -1
+Shadow_3.Image = "rbxassetid://13959916572"
+Shadow_3.ImageColor3 = Color3.fromRGB(25, 25, 25)
+Shadow_3.ScaleType = Enum.ScaleType.Fit
+Shadow_3.SliceCenter = Rect.new(23, 23, 277, 277)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
+UIGradient_7.Parent = Shadow_3
+
+Frame_17.Parent = Main
+Frame_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_17.BackgroundTransparency = 0.850
+Frame_17.BorderSizePixel = 0
+Frame_17.ClipsDescendants = true
+Frame_17.Size = UDim2.new(0, 150, 0, 400)
+Frame_17.ZIndex = 2
+
+UICorner_31.Parent = Frame_17
+
+Title_10.Name = "Title"
+Title_10.Parent = Frame_17
+Title_10.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Title_10.BackgroundTransparency = 1.000
+Title_10.BorderSizePixel = 0
+Title_10.Size = UDim2.new(1, 0, 0.0250000004, 30)
+Title_10.ZIndex = 10
+Title_10.Font = Enum.Font.SourceSansSemibold
+Title_10.Text = "     Universal"
+Title_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.TextSize = 24.000
+Title_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.TextXAlignment = Enum.TextXAlignment.Left
+Title_10.TextYAlignment = Enum.TextYAlignment.Bottom
+
+GradColor_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor_23.Name = "GradColor"
+GradColor_23.Parent = Title_10
+
+Time.Name = "Time"
+Time.Parent = Frame_17
+Time.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Time.BackgroundTransparency = 1.000
+Time.BorderSizePixel = 0
+Time.Position = UDim2.new(0, 0, 0, 40)
+Time.Size = UDim2.new(1, 0, 0, 16)
+Time.ZIndex = 10
+Time.Font = Enum.Font.SourceSansSemibold
+Time.Text = "       09:55 PM"
+Time.TextColor3 = Color3.fromRGB(255, 255, 255)
+Time.TextSize = 18.000
+Time.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Time.TextXAlignment = Enum.TextXAlignment.Left
+
+GradColor_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor_24.Name = "GradColor"
+GradColor_24.Parent = Time
+
+Frame_18.Parent = Frame_17
+Frame_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_18.BackgroundTransparency = 0.800
+Frame_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_18.BorderSizePixel = 0
+Frame_18.Size = UDim2.new(0, 158, 1, 0)
+
+UICorner_32.Parent = Frame_18
+
+Select.Name = "Select"
+Select.Parent = Frame_17
+
+Frame_19.Parent = Select
+Frame_19.AnchorPoint = Vector2.new(0.5, 0)
+Frame_19.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Frame_19.BackgroundTransparency = 1.000
+Frame_19.BorderSizePixel = 0
+Frame_19.Position = UDim2.new(0.5, 0, 0, 70)
+Frame_19.Size = UDim2.new(0, 124, 0, 135)
+Frame_19.ZIndex = 3
+
+UIListLayout_10.Parent = Frame_19
+UIListLayout_10.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_10.Padding = UDim.new(-0.699999988, 5)
+
+cheat.Name = "cheat"
+cheat.Parent = Frame_19
+cheat.AnchorPoint = Vector2.new(0.5, 0)
+cheat.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+cheat.BackgroundTransparency = 1.000
+cheat.BorderSizePixel = 0
+cheat.Position = UDim2.new(0.5, 0, 0, 70)
+cheat.Size = UDim2.new(0, 124, 0, 135)
+cheat.ZIndex = 3
+
+UIListLayout_11.Parent = cheat
+UIListLayout_11.Padding = UDim.new(0, 5)
+
+Settings.Name = "Settings"
+Settings.Parent = cheat
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BackgroundTransparency = 1.000
+Settings.Size = UDim2.new(0, 70, 0, 27)
+
+UICorner_33.Parent = Settings
+
+TextButton_6.Parent = Settings
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_6.ZIndex = 6
+TextButton_6.AutoButtonColor = false
+TextButton_6.Font = Enum.Font.Roboto
+TextButton_6.Text = "  Aimbot"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 16.000
+TextButton_6.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+TextButton_6.TextStrokeTransparency = 0.950
+TextButton_6.TextXAlignment = Enum.TextXAlignment.Left
+
+GradColor_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor_25.Name = "GradColor"
+GradColor_25.Parent = TextButton_6
+
+Color.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(71, 154, 247)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 180, 223))}
+Color.Name = "Color"
+Color.Parent = Settings
+
+speed.Name = "speed"
+speed.Parent = Frame_19
+speed.AnchorPoint = Vector2.new(0.5, 0)
+speed.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+speed.BackgroundTransparency = 1.000
+speed.BorderSizePixel = 0
+speed.Position = UDim2.new(0.5, 0, 0, 70)
+speed.Size = UDim2.new(0, 124, 0, 135)
+speed.ZIndex = 3
+
+UIListLayout_12.Parent = speed
+UIListLayout_12.Padding = UDim.new(0, 5)
+
+Settings_2.Name = "Settings"
+Settings_2.Parent = speed
+Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.BackgroundTransparency = 1.000
+Settings_2.Size = UDim2.new(0, 70, 0, 27)
+
+UICorner_34.Parent = Settings_2
+
+TextButton_7.Parent = Settings_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_7.ZIndex = 6
+TextButton_7.AutoButtonColor = false
+TextButton_7.Font = Enum.Font.Roboto
+TextButton_7.Text = "  Speed"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 16.000
+TextButton_7.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+TextButton_7.TextStrokeTransparency = 0.950
+TextButton_7.TextXAlignment = Enum.TextXAlignment.Left
+
+GradColor_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor_26.Name = "GradColor"
+GradColor_26.Parent = TextButton_7
+
+Color_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(71, 154, 247)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 180, 223))}
+Color_2.Name = "Color"
+Color_2.Parent = Settings_2
+
+tab.Name = "tab"
+tab.Parent = Frame_19
+tab.AnchorPoint = Vector2.new(0.5, 0)
+tab.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+tab.BackgroundTransparency = 1.000
+tab.BorderSizePixel = 0
+tab.Position = UDim2.new(0.5, 0, 0, 70)
+tab.Size = UDim2.new(0, 124, 0, 135)
+tab.ZIndex = 3
+
+UIListLayout_13.Parent = tab
+UIListLayout_13.Padding = UDim.new(0, 5)
+
+Settings_3.Name = "Settings"
+Settings_3.Parent = tab
+Settings_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_3.BackgroundTransparency = 1.000
+Settings_3.Size = UDim2.new(0, 70, 0, 27)
+
+UICorner_35.Parent = Settings_3
+
+TextButton_8.Parent = Settings_3
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_8.ZIndex = 6
+TextButton_8.AutoButtonColor = false
+TextButton_8.Font = Enum.Font.Roboto
+TextButton_8.Text = "  Esp"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 16.000
+TextButton_8.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+TextButton_8.TextStrokeTransparency = 0.950
+TextButton_8.TextXAlignment = Enum.TextXAlignment.Left
+
+GradColor_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor_27.Name = "GradColor"
+GradColor_27.Parent = TextButton_8
+
+Color_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(71, 154, 247)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 180, 223))}
+Color_3.Name = "Color"
+Color_3.Parent = Settings_3
+
+info.Name = "info"
+info.Parent = Frame_19
+info.AnchorPoint = Vector2.new(0.5, 0)
+info.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+info.BackgroundTransparency = 1.000
+info.BorderSizePixel = 0
+info.Position = UDim2.new(0.5, 0, 0, 70)
+info.Size = UDim2.new(0, 124, 0, 135)
+info.ZIndex = 3
+
+UIListLayout_14.Parent = info
+UIListLayout_14.Padding = UDim.new(0, 5)
+
+Settings_4.Name = "Settings"
+Settings_4.Parent = info
+Settings_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_4.BackgroundTransparency = 1.000
+Settings_4.Size = UDim2.new(0, 70, 0, 27)
+
+UICorner_36.Parent = Settings_4
+
+TextButton_9.Parent = Settings_4
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_9.ZIndex = 6
+TextButton_9.AutoButtonColor = false
+TextButton_9.Font = Enum.Font.Roboto
+TextButton_9.Text = "  Info"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 16.000
+TextButton_9.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+TextButton_9.TextStrokeTransparency = 0.950
+TextButton_9.TextXAlignment = Enum.TextXAlignment.Left
+
+GradColor_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+GradColor_28.Name = "GradColor"
+GradColor_28.Parent = TextButton_9
+
+Color_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(71, 154, 247)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 180, 223))}
+Color_4.Name = "Color"
+Color_4.Parent = Settings_4
+
+UICorner_37.Parent = Main
+
+-- Scripts:
+
+local function CYLNQ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	
+	local Transparency1 = game:GetService("TweenService"):Create(
+		script.Parent,
+		TweenInfo.new(),
+	{
+		BackgroundTransparency = 0.15
+	}
+	)
+	local Transparency01 = game:GetService("TweenService"):Create(
+	script.Parent.Parent["Open/Close"],
+	TweenInfo.new(),
+	{
+		BackgroundTransparency = 1
+	}
+	)
+	local Transparency001 = game:GetService("TweenService"):Create(
+	script.Parent.Parent["Open/Close"].TextLabel,
+	TweenInfo.new(),
+	{
+		TextTransparency = 1
+	}
+	)
+	local Transparency02 = game:GetService("TweenService"):Create(
+	script.Parent.Parent["Open/Close"],
+	TweenInfo.new(),
+	{
+		BackgroundTransparency = 0.1
+	}
+	)
+	local Transparency002 = game:GetService("TweenService"):Create(
+	script.Parent.Parent["Open/Close"].TextLabel,
+	TweenInfo.new(),
+	{
+		TextTransparency = 0.1
+	}
+	)
+	local Transparency2 = game:GetService("TweenService"):Create(
+		script.Parent,
+		TweenInfo.new(),
+	{
+		BackgroundTransparency = 1
+	}
+	)
+	
+	local Transparency3 = game:GetService("TweenService"):Create(
+		script.Parent.A,
+		TweenInfo.new(),
+	{
+		TextTransparency = 0
+	}
+	)
+	local Transparency4 = game:GetService("TweenService"):Create(
+		script.Parent.A,
+		TweenInfo.new(),
+	{
+		TextTransparency = 1
+	}
+	)
+	
+	local Transparency5 = game:GetService("TweenService"):Create(
+		script.Parent.B,
+		TweenInfo.new(),
+	{
+		TextTransparency = 0
+	}
+	)
+	local Transparency6 = game:GetService("TweenService"):Create(
+		script.Parent.B,
+		TweenInfo.new(),
+	{
+		TextTransparency = 1
+	}
+	)
+	
+	local Transparency7 = game:GetService("TweenService"):Create(
+	script.Parent.Frame,
+	TweenInfo.new(),
+	{
+		BackgroundTransparency = 0.9
+	}
+	)
+	local Transparency8 = game:GetService("TweenService"):Create(
+	script.Parent.Frame,
+	TweenInfo.new(),
+	{
+		BackgroundTransparency = 1
+	}
+	)
+	
+	local Transparency9 = game:GetService("TweenService"):Create(
+	script.Parent.Frame.Frame,
+	TweenInfo.new(),
+	{
+		BackgroundTransparency = 0.1
+	}
+	)
+	local Transparency10 = game:GetService("TweenService"):Create(
+	script.Parent.Frame.Frame,
+	TweenInfo.new(),
+	{
+		BackgroundTransparency = 1
+	}
+	)
+	local Transparency11 = game:GetService("TweenService"):Create(
+	script.Parent.Shadow,
+	TweenInfo.new(),
+	{
+		ImageTransparency = 0
+	}
+	)
+	local Transparency12 = game:GetService("TweenService"):Create(
+	script.Parent.Shadow,
+	TweenInfo.new(0.7, Enum.EasingStyle.Linear),
+	{
+		ImageTransparency = 1
+	}
+	)
+	
+	local TweenService = game:GetService("TweenService")
+	local Parent = script.Parent.Parent
+	
+	-- Define tweens for fading in the button and its text
+	local fadeInBackground = TweenService:Create(
+		Parent["Open/Close"],
+		TweenInfo.new(0.7, Enum.EasingStyle.Linear),
+		{BackgroundTransparency = 0.1}
+	)
+	
+	local fadeInText = TweenService:Create(
+		Parent["Open/Close"].TextLabel,
+		TweenInfo.new(0.7, Enum.EasingStyle.Linear),
+		{TextTransparency = 0.1}
+	)
+	
+	
+	-- Adjust the button text color to match the button's transparency
+	
+	
+	-- Play the fading in tweens for the button and its text
+	
+	
+	Transparency1:Play()
+	Transparency3:Play()
+	Transparency5:Play()
+	Transparency7:Play()
+	Transparency9:Play()
+	Transparency11:Play()
+	task.wait(1.5)
+	script.Parent.Frame.Frame:TweenSize(UDim2.new(1,0,1,0))
+	task.wait(1.5)
+	
+	Transparency2:Play()
+	Transparency4:Play()
+	Transparency6:Play()
+	Transparency8:Play()
+	Transparency10:Play()
+	Transparency12:Play()
+	task.wait(1.5)
+	script.Parent.Parent["Open/Close"].Visible = true
+	--Transparency01:Play()
+	--Transparency001:Play()
+	
+	
+	
+	-- Play the fading in tween for the button and its text
+	
+	
+	fadeInBackground:Play()
+	fadeInText:Play()
+	script.Parent.Parent["Open/Close"].Shadow.Visible = true
+	task.wait(0.15)
+	
+	script.Parent:Destroy()
+	
+end
+coroutine.wrap(CYLNQ_fake_script)()
+local function UPNGXM_fake_script() -- OpenClose.LocalScript 
+	local script = Instance.new('LocalScript', OpenClose)
+
+	
+	script.Parent.MouseEnter:Connect(function()
+	local TweenService = game:GetService"TweenService"
+	local tween = TweenService:Create(
+	    script.Parent,
+	    TweenInfo.new(1),
+	    {
+	        Rotation = 360
+	    }
+		)
+	tween:Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+	local TweenService = game:GetService"TweenService"
+	local tween = TweenService:Create(
+	    script.Parent,
+	    TweenInfo.new(1),
+	    {
+	        Rotation = 0
+	    }
+	)
+	tween:Play()
+	end)
+	local Main = script.Parent.Parent.Main
+	-- Define variables
+	local TweenService = game:GetService("TweenService")
+	local frame = Main -- Assuming the frame you want to slide is a direct child of the script
+	
+	-- Calculate the initial position to center the frame and place it off the screen
+	local initialPosition = UDim2.new(0.5, 0, 1.5, 0) -- Center horizontally, off the screen vertically
+	frame.Position = initialPosition
+	
+	-- Define the tween for sliding the frame onto the screen
+	local function SlideFrameOnScreen()
+		-- Define the properties for the tween animation
+		local startPosition = frame.Position
+		local endPosition = UDim2.new(startPosition.X.Scale, startPosition.X.Offset, 0.5, 0) -- Move the frame back to its original position
+	
+		local tweenInfo = TweenInfo.new(
+			0.5,
+			Enum.EasingStyle.Linear, -- You can try different easing styles for different effects
+			Enum.EasingDirection.Out,
+			0,
+			false,
+			0
+		)
+	
+		-- Create the tween
+		local tween = TweenService:Create(frame, tweenInfo, {Position = endPosition})
+		return tween
+	end
+	
+	-- Define the tween for sliding the frame off the screen
+	local function SlideFrameOffScreen()
+		-- Define the properties for the tween animation
+		local startPosition = frame.Position
+		local endPosition = UDim2.new(startPosition.X.Scale, startPosition.X.Offset, 1.5, 0) -- Move the frame below the screen
+	
+		local tweenInfo = TweenInfo.new(
+			0.5,
+			Enum.EasingStyle.Linear, -- You can try different easing styles for different effects
+			Enum.EasingDirection.Out,
+			0,
+			false,
+			0
+		)
+	
+		-- Create the tween
+		local tween = TweenService:Create(frame, tweenInfo, {Position = endPosition})
+		return tween
+	end
+	
+	-- Debounce variable
+	local canClick = true
+	local canClicke = true
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Check if clicking is allowed (not debounced)
+		if not canClick then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClick = false
+	
+		if Main.Visible then
+			-- Slide the frame off the screen
+			local tween = SlideFrameOffScreen()
+			tween:Play()
+	
+			-- Toggle visibility of Main after the animation completes
+			wait(0.5) -- Wait for the animation duration
+			Main.Visible = not Main.Visible
+		else
+			-- Slide the frame onto the screen
+			local tween = SlideFrameOnScreen()
+			tween:Play()
+	
+			-- Toggle visibility of Main
+			Main.Visible = not Main.Visible
+		end
+	
+		-- Enable clicking after debounce period
+		wait(0.5) -- Debounce period
+		canClick = true
+	end)
+	local TweenService = game:GetService("TweenService")
+	local Button = script.Parent
+	
+	-- Function to play the button press animation
+	
+	
+	-- Function to play the button press animation
+	local function ButtonPressAnimation()
+		-- Define the properties for the tween animation
+		local originalSize = Button.Size
+		local pressedSize = UDim2.new(originalSize.X.Scale, originalSize.X.Offset - 5, originalSize.Y.Scale, originalSize.Y.Offset - 5)
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+		-- Create the tween for the button press animation
+		local pressTween = TweenService:Create(Button, tweenInfo, {Size = pressedSize})
+	
+		-- Define a separate tween to reverse the animation
+		local reverseTween = TweenService:Create(Button, tweenInfo, {Size = originalSize})
+	
+		-- Play the press animation
+		pressTween:Play()
+	
+		-- After a short delay, reverse the button size back to its original state
+		wait(0.1)
+		reverseTween:Play()
+	end
+	
+	-- Connect the function to the mouse button click event
+	
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Play the button press animation when clicked
+		if not canClicke then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClicke = false
+		
+		ButtonPressAnimation()
+		wait(0.8) -- Debounce period
+		canClicke = true
+		-- Add other actions you want to perform when the button is clicked here
+	end)
+end
+coroutine.wrap(UPNGXM_fake_script)()
+local function IXOHNEQ_fake_script() -- OpenClose.Blur 
+	local script = Instance.new('Script', OpenClose)
+
+	local Workspace = game:GetService("Workspace")
+	local Lighting = game:GetService("Lighting")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+	local Camera = Workspace.CurrentCamera
+	local Vector3 = Vector3
+	local Instance = Instance
+	local CFrame = CFrame
+	local UDim2 = UDim2
+	local math = math
+	local Enum = Enum
+	local TweenInfo = TweenInfo
+	local offset = 0.001
+	local Part = Instance.new("Part", Camera)
+	local GuiObject = script.Parent
+	local Mesh = Instance.new("BlockMesh", Part)
+	local Highlight = Instance.new("Highlight", Part)
+	local ModifiedAbsoluteSize = GuiObject.AbsoluteSize
+	local ModifiedAbsolutePosition = GuiObject.AbsolutePosition
+	local OffsetValue = 18;
+	
+	local function SetUpEffect()
+		Part.FormFactor = "Custom"
+		Part.Size = Vector3.new(offset, offset, offset)
+		Part.Anchored = true
+		Part.Locked = true
+		Part.CanCollide = false
+		Part.Material = "Glass"
+		Part.Transparency = 1
+		Mesh.Offset = Vector3.new(0, 0, 0)
+		Highlight.FillTransparency = 1
+		Highlight.OutlineTransparency = 1
+		Highlight.Enabled = false
+	end
+	
+	local function functionToBind() 
+		local RCF = Camera.CFrame
+		RCF = RCF + (Vector3.new(0,0,offset))
+		ModifiedAbsoluteSize = Vector2.new(GuiObject.AbsoluteSize.X - OffsetValue,GuiObject.AbsoluteSize.Y - OffsetValue)
+		ModifiedAbsolutePosition = Vector2.new(GuiObject.AbsolutePosition.X + (OffsetValue / 2), GuiObject.AbsolutePosition.Y + (OffsetValue / 2))
+		local AngleFrame = RCF:toObjectSpace(CFrame.new(RCF.p)):inverse()
+		local TopLeftRay = Camera:ScreenPointToRay(ModifiedAbsolutePosition.X, ModifiedAbsolutePosition.Y, offset)
+		local BottomRightRay = Camera:ScreenPointToRay(ModifiedAbsolutePosition.X + ModifiedAbsoluteSize.X, ModifiedAbsolutePosition.Y + ModifiedAbsoluteSize.Y, offset)
+		local BottomLeftRay = Camera:ScreenPointToRay(ModifiedAbsolutePosition.X, ModifiedAbsolutePosition.Y + ModifiedAbsoluteSize.Y, offset)
+		local MidRay = Camera:ScreenPointToRay(ModifiedAbsolutePosition.X + ModifiedAbsoluteSize.X/2, ModifiedAbsolutePosition.Y + ModifiedAbsoluteSize.Y/2, offset)
+		Mesh.Scale = Vector3.new((BottomRightRay.Origin - BottomLeftRay.Origin).magnitude, (TopLeftRay.Origin - BottomLeftRay.Origin).magnitude, 0)	* 1000
+		Part.CFrame = CFrame.new(MidRay.Origin) * AngleFrame
+		if not GuiObject.Parent or not Part.Parent then
+			RunService:UnbindFromRenderStep("tempBinding3")
+			Part:Destroy()
+			script:Destroy() script.Disabled = true
+		end
+	end
+	
+	SetUpEffect()
+	RunService.RenderStepped:Connect(functionToBind)
+end
+coroutine.wrap(IXOHNEQ_fake_script)()
+local function BVXJXGC_fake_script() -- TextButton.esp 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local PLAYER = game.Players.LocalPlayer
+	local CurrentCam  = game.Workspace.CurrentCamera
+	local UIS = game:GetService("UserInputService")-- Made By Mick Gordon
+	local WorldToViewportPoint = CurrentCam.WorldToViewportPoint
+	local mouseLocation = UIS.GetMouseLocation
+	local keyCode = script.Parent
+	local on = true
+	
+	
+	local DeleteMob ={
+		Aimbot= {
+			Enabled = false;
+			TeamCheck = false;-- Made By Mick Gordon
+			WallCheck = false;
+	
+			ShowFov = false;
+			Fov = 0;
+	
+			Smoothing = 0;
+	
+			AimPart = "Head";
+			-- Made By Mick Gordon
+			Keybind = "MouseButton2";
+	
+	
+			Thickness = 1;
+	
+			FovFillColor = Color3.fromRGB(100,0,100);
+			FovColor = Color3.fromRGB(100,0,100);
+	
+			FovFillTransparency = 1;
+			FovTransparenct = 0;
+		};
+		ESP ={
+			Box = {
+				Box = false;-- Made By Mick Gordon
+				Name = false;
+				Distance = false;
+				Health = false;
+	
+				TeamCheck = false;
+	
+				HealthType = "Bar";
+	
+				BoxColor = Color3.fromRGB(85, 0, 255);
+			};
+			OutLines = {
+				Enabled = false;
+				TeamCheck = false;
+				TeamColor = false;
+	
+				AllwaysShow = true;
+	
+				FillCollor = Color3.fromRGB(75,0,10);
+				FillTrancparenct = 0;
+	
+				OutlineColor = Color3.fromRGB(0,0,0);
+				OutlineTrancparency = 0;
+			};
+			Tracers = {
+				Enabled = false;
+				TeamCheck = false;
+				TeamColor = false;
+	
+				Color = Color3.fromRGB(75,0,10);
+			}
+		}-- Made By Mick Gordon
+	}
+	
+	-- Made By Mick Gordon
+	
+	local BoxC = Instance.new("ScreenGui", game.Workspace) BoxC.Name = "Box"
+	
+	local connections = {}
+	-- Made By Mick Gordon
+	
+	
+	-- Made By Mick Gordon
+	local function AddBox(player)
+		local bbg = Instance.new("BillboardGui", BoxC)
+		bbg.Name = player.Name
+		bbg.AlwaysOnTop = true
+		bbg.Size = UDim2.new(4,0,5.4,0)
+		bbg.ClipsDescendants = false
+		bbg.Enabled = false
+	
+		local outlines = Instance.new("Frame", bbg)
+		outlines.Size = UDim2.new(1,0,1,0)
+		outlines.BorderSizePixel = 1
+		outlines.BackgroundTransparency = 1
+		local left = Instance.new("Frame", outlines)
+		left.BorderSizePixel = 1
+		left.Size = UDim2.new(0,(1),1,0)
+		local right = left:Clone()
+		right.Parent = outlines
+		right.Size = UDim2.new(0,-(1),1,0)   
+		right.Position = UDim2.new(1,0,0,0)
+		local up = left:Clone()-- Made By Mick Gordon
+		up.Parent = outlines
+		up.Size = UDim2.new(1,0,0,(1))
+		local down = left:Clone()
+		down.Parent = outlines
+		down.Size = UDim2.new(1,0,0,-(1))
+		down.Position = UDim2.new(0,0,1,0)
+	
+		local info = Instance.new("BillboardGui", bbg)
+		info.Name = "info"
+		info.Size = UDim2.new(3,0,0,54)
+		info.StudsOffset = Vector3.new(3.6,-3,0)
+		info.AlwaysOnTop = true
+		info.ClipsDescendants = false
+		info.Enabled = false
+		local namelabel = Instance.new("TextLabel", info)
+		namelabel.Name = "namelabel"
+		namelabel.BackgroundTransparency = 1
+		namelabel.TextStrokeTransparency = 0
+		namelabel.TextXAlignment = Enum.TextXAlignment.Left
+		namelabel.Size = UDim2.new(0,100,0,18)
+		namelabel.Position = UDim2.new(0,0,0,0)
+		namelabel.Text = player.Name
+		local distancel = Instance.new("TextLabel", info)
+		distancel.Name = "distancelabel"
+		distancel.BackgroundTransparency = 1-- Made By Mick Gordon
+		distancel.TextStrokeTransparency = 0
+		distancel.TextXAlignment = Enum.TextXAlignment.Left
+		distancel.Size = UDim2.new(0,100,0,18)
+		distancel.Position = UDim2.new(0,0,0,18)
+		local healthl = Instance.new("TextLabel", info)
+		healthl.Name = "healthlabel"
+		healthl.BackgroundTransparency = 1
+		healthl.TextStrokeTransparency = 0
+		healthl.TextXAlignment = Enum.TextXAlignment.Left
+		healthl.Size = UDim2.new(0,100,0,18)
+		healthl.Position = UDim2.new(0,0,0,36)
+	
+		local uill = Instance.new("UIListLayout", info)
+	
+		local forhealth = Instance.new("BillboardGui", bbg)
+		forhealth.Name = "forhealth"
+		forhealth.Size = UDim2.new(4.5,0,6,0)
+		forhealth.AlwaysOnTop = true
+		forhealth.ClipsDescendants = false
+		forhealth.Enabled = false
+	
+		local healthbar = Instance.new("Frame", forhealth)
+		healthbar.Name = "healthbar"
+		healthbar.BackgroundColor3 = Color3.fromRGB(40,40,40)
+		healthbar.BorderColor3 = Color3.fromRGB(0,0,0)
+		healthbar.Size = UDim2.new(0.04,0,0.9,0)
+		healthbar.Position = UDim2.new(0,0,0.05,0)
+		local bar = Instance.new("Frame", healthbar)
+		bar.Name = "bar"
+		bar.BorderSizePixel = 0
+		bar.BackgroundColor3 = Color3.fromRGB(94,255,69)
+		bar.AnchorPoint = Vector2.new(0,1)
+		bar.Position = UDim2.new(0,0,1,0)
+		bar.Size = UDim2.new(1,0,1,0)
+	
+		-- Made By Mick Gordon
+		local co = coroutine.create(function()
+			while wait(0.1) do
+				if player ~= PLAYER and player and player.Character and player.Character.FindFirstChild(player.Character, "Humanoid") and player.Character.Humanoid.Health > 0 then
+					bbg.Adornee = player.Character.HumanoidRootPart
+					info.Adornee = player.Character.HumanoidRootPart
+					forhealth.Adornee = player.Character.HumanoidRootPart
+	
+					if DeleteMob.ESP.Box.Box == true then
+						outlines.Visible = true
+					else
+						outlines.Visible = false
+					end
+	
+					outlines.BackgroundTransparency = 1
+	
+					if DeleteMob.ESP.Box.Health == true then
+						if player.Character:FindFirstChild("Humanoid") ~= nil then
+							healthl.Text = "Health: "..math.floor(player.Character:FindFirstChild"Humanoid".Health)
+							healthbar.bar.Size = UDim2.new(1,0,player.Character:FindFirstChild"Humanoid".Health/player.Character:FindFirstChild"Humanoid".MaxHealth,0)
+						end
+						if DeleteMob.ESP.Box.HealthType == "Text" then
+							healthbar.Visible = false
+							healthl.Visible = true
+						end-- Made By Mick Gordon
+						if DeleteMob.ESP.Box.HealthType == "Bar" then
+							healthl.Visible = false
+							healthbar.Visible = true
+						end
+						if DeleteMob.ESP.Box.HealthType == "Both" then
+							healthl.Visible = true
+							healthbar.Visible = true
+						end
+					else
+						healthl.Visible = false
+						healthbar.Visible = false
+					end
+	
+	
+					if DeleteMob.ESP.Box.Name then
+						namelabel.Visible = true
+					else
+						namelabel.Visible = false
+					end
+	
+					-- Made By Mick Gordon
+					if DeleteMob.ESP.Box.Distance == true then
+						distancel.Visible = true
+						if PLAYER.Character and PLAYER.Character:FindFirstChild("HumanoidRootPart") ~= nil then
+							distancel.Text = "Distance: "..math.floor(0.5+(PLAYER.Character:FindFirstChild"HumanoidRootPart".Position - player.Character:FindFirstChild"HumanoidRootPart".Position).magnitude)
+						end
+					else
+						distancel.Visible = false
+					end
+	
+	
+					if DeleteMob.ESP.Box.TeamCheck == true and player.TeamColor == PLAYER.TeamColor then
+						bbg.Enabled = false
+						info.Enabled = false
+						forhealth.Enabled = false
+					else
+						bbg.Enabled = true
+						info.Enabled = true
+						forhealth.Enabled = true
+					end
+					-- Made By Mick Gordon
+	
+					if DeleteMob.ESP.Box.TeamColor == true then
+						left.BackgroundColor3 = player.TeamColor.Color
+						right.BackgroundColor3 = player.TeamColor.Color
+						up.BackgroundColor3 = player.TeamColor.Color
+						down.BackgroundColor3 = player.TeamColor.Color
+						outlines.BackgroundColor3 = DeleteMob.ESP.Box.BoxColor
+					else
+						outlines.BackgroundColor3 = DeleteMob.ESP.Box.BoxColor
+						left.BackgroundColor3 = DeleteMob.ESP.Box.BoxColor
+						right.BackgroundColor3 = DeleteMob.ESP.Box.BoxColor
+						up.BackgroundColor3 = DeleteMob.ESP.Box.BoxColor
+						down.BackgroundColor3 = DeleteMob.ESP.Box.BoxColor
+						healthl.TextColor3 = DeleteMob.ESP.Box.BoxColor
+						distancel.TextColor3 = DeleteMob.ESP.Box.BoxColor
+						namelabel.TextColor3 = DeleteMob.ESP.Box.BoxColor
+					end
+	
+					if not (game:GetService"Players":FindFirstChild(player.Name)) then
+						BoxC:FindFirstChild(player.Name):Destroy()
+						coroutine.yield()
+					end-- Made By Mick Gordon
+				else
+					bbg.Enabled = false
+					bbg.Adornee = nil
+					info.Adornee = nil
+					info.Enabled = false
+					forhealth.Adornee = nil
+					forhealth.Enabled = false
+				end
+			end 
+		end)
+		coroutine.resume(co)
+	end
+	
+	keyCode.MouseButton1Down:Connect(function()
+	
+		if on then
+			on = false
+			DeleteMob.ESP.Box.Health = true
+			DeleteMob.ESP.Box.Box = true
+	
+	
+	
+	
+		
+	
+		else
+		on = true
+			DeleteMob.ESP.Box.Health = false
+			DeleteMob.ESP.Box.Box = false
+	end
+	end)
+	for i,plr in pairs(game.Players:GetChildren()) do
+	
+		AddBox(plr)
+	
+	end
+	
+	game.Players.PlayerAdded:Connect(function(plr)
+	
+		AddBox(plr)
+	
+	end)
+end
+coroutine.wrap(BVXJXGC_fake_script)()
+local function LNYWV_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local TweenService = game:GetService("TweenService")
+	local Button = script.Parent
+	local canClicke = true
+	-- Function to play the button press animation
+	
+	
+	-- Function to play the button press animation
+	local function ButtonPressAnimation()
+		-- Define the properties for the tween animation
+		local originalSize = Button.Size
+		local pressedSize = UDim2.new(originalSize.X.Scale, originalSize.X.Offset - 5, originalSize.Y.Scale, originalSize.Y.Offset - 5)
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+		-- Create the tween for the button press animation
+		local pressTween = TweenService:Create(Button, tweenInfo, {Size = pressedSize})
+	
+		-- Define a separate tween to reverse the animation
+		local reverseTween = TweenService:Create(Button, tweenInfo, {Size = originalSize})
+	
+		-- Play the press animation
+		pressTween:Play()
+	
+		-- After a short delay, reverse the button size back to its original state
+		wait(0.1)
+		reverseTween:Play()
+	end
+	
+	-- Connect the function to the mouse button click event
+	
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Play the button press animation when clicked
+		if not canClicke then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClicke = false
+	
+		ButtonPressAnimation()
+		wait(0.8) -- Debounce period
+		canClicke = true
+		-- Add other actions you want to perform when the button is clicked here
+	end)
+end
+coroutine.wrap(LNYWV_fake_script)()
+local function MDKD_fake_script() -- TextButton_2.esp 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local PLAYER = game.Players.LocalPlayer
+	local CurrentCam  = game.Workspace.CurrentCamera
+	local UIS = game:GetService("UserInputService")-- Made By Mick Gordon
+	local WorldToViewportPoint = CurrentCam.WorldToViewportPoint
+	local mouseLocation = UIS.GetMouseLocation
+	local keyCode = script.Parent
+	local on = true
+	local no = true
+	local nm = script.Parent.Parent.Parent.Parent.Fov.Frame.TextBox
+	local yt = script.Parent.Parent.Parent.Parent.wallcheck.Frame.TextButton
+	local zx = script.Parent.Parent.Parent.Parent.teamcheck.Frame.TextButton
+	local re = 1
+	local ze = true
+	
+	local DeleteMob ={
+		Aimbot= {
+			Enabled = false;
+			TeamCheck = false;-- Made By Mick Gordon
+			WallCheck = false;
+	
+			ShowFov = false;
+			Fov = 2;
+	
+			Smoothing = 0;
+	
+			AimPart = "Head";
+			-- Made By Mick Gordon
+			Keybind = "MouseButton2";
+	
+	
+			Thickness = 1;
+	
+			FovFillColor = Color3.fromRGB(100,0,100);
+			FovColor = Color3.fromRGB(100,0,100);
+	
+			FovFillTransparency = 1;
+			FovTransparenct = 0;
+	
+	
+			
+		};
+		ESP ={
+			Box = {
+				Box = false;-- Made By Mick Gordon
+				Name = false;
+				Distance = false;
+				Health = false;
+	
+				TeamCheck = false;
+	
+				HealthType = "Bar";
+	
+				BoxColor = Color3.fromRGB(85, 0, 255);
+			};
+			OutLines = {
+				Enabled = false;
+				TeamCheck = false;
+				TeamColor = false;
+	
+				AllwaysShow = true;
+	
+				FillCollor = Color3.fromRGB(75,0,10);
+				FillTrancparenct = 0;
+	
+				OutlineColor = Color3.fromRGB(0,0,0);
+				OutlineTrancparency = 0;
+			};
+			Tracers = {
+				Enabled = false;
+				TeamCheck = false;
+				TeamColor = false;
+	
+				Color = Color3.fromRGB(75,0,10);
+			}
+		}-- Made By Mick Gordon
+	}
+	
+	-- Made By Mick Gordon
+	local Fov = Instance.new("ScreenGui")Fov.Name = "Fov" Fov.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") Fov.ZIndexBehavior = Enum.ZIndexBehavior.Sibling Fov.ResetOnSpawn = false-- i miss you synapse fov
+	local TracersG = Instance.new("ScreenGui")TracersG.Name = "Tracers" TracersG.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") TracersG.ZIndexBehavior = Enum.ZIndexBehavior.Sibling TracersG.ResetOnSpawn = false
+	local FOVFFrame = Instance.new("Frame")FOVFFrame.Parent = Fov FOVFFrame.Name = "FOVFFrame" FOVFFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255) FOVFFrame.BorderColor3 = Color3.fromRGB(0, 0, 0) FOVFFrame.BorderSizePixel = 0 FOVFFrame.BackgroundTransparency = 1 FOVFFrame.AnchorPoint = Vector2.new(0.5, 0.5) FOVFFrame.Position = UDim2.new(0.5, 0,0.5, 0) FOVFFrame.Size = UDim2.new(0, DeleteMob.Aimbot.Fov, 0, DeleteMob.Aimbot.Fov) FOVFFrame.BackgroundTransparency = 1 
+	local UICorner = Instance.new("UICorner")UICorner.CornerRadius = UDim.new(1, 0) UICorner.Parent = FOVFFrame -- Made By Mick Gordon
+	local UIStroke = Instance.new("UIStroke")UIStroke.Color = Color3.fromRGB(100,0,100) UIStroke.Parent = FOVFFrame UIStroke.Thickness = 1 UIStroke.ApplyStrokeMode = "Border" 
+	local BoxC = Instance.new("ScreenGui", game.Workspace) BoxC.Name = "Box"
+	local CheatEngineDeleteMob = Instance.new("ScreenGui")
+	local DeleteMobF = Instance.new("Frame")
+	local TextBox = Instance.new("TextBox")
+	local Name = Instance.new("TextLabel")
+	local Line = Instance.new("Frame")
+	local Line_2 = Instance.new("Frame")
+	local AimBotSection = Instance.new("Frame")
+	local UIListLayout = Instance.new("UIListLayout")
+	local ABE = Instance.new("TextButton")
+	local ABWC = Instance.new("TextButton")
+	local ABTC = Instance.new("TextButton")
+	local ABSF = Instance.new("TextButton")
+	local Frame = Instance.new("Frame")
+	local Slider3 = Instance.new("Frame")-- Made By Mick Gordon
+	local UICorner = Instance.new("UICorner")
+	local Fill1 = Instance.new("Frame")
+	local UICorner_2 = Instance.new("UICorner")
+	local UIGradient = Instance.new("UIGradient")
+	local TriggerFov = Instance.new("TextButton")
+	local Numbers = Instance.new("TextLabel")
+	local TextLabel = Instance.new("TextLabel")
+	local Frame_2 = Instance.new("Frame")
+	local Slider4 = Instance.new("Frame")
+	local UICorner_3 = Instance.new("UICorner")
+	local Fill2 = Instance.new("Frame")
+	local UICorner_4 = Instance.new("UICorner")
+	local UIGradient_2 = Instance.new("UIGradient")
+	local TriggerSmoothing = Instance.new("TextButton")-- Made By Mick Gordon
+	local Numbers_2 = Instance.new("TextLabel")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local Allways_Show = Instance.new("TextButton")
+	local TextLabel_4 = Instance.new("TextLabel")
+	local ESPSection = Instance.new("Frame")
+	local UIListLayout_2 = Instance.new("UIListLayout")
+	local BBE = Instance.new("TextButton")
+	local BTC = Instance.new("TextButton")
+	local BBN = Instance.new("TextButton")
+	local BBD = Instance.new("TextButton")
+	local BBH = Instance.new("TextButton")
+	local TextLabel_5 = Instance.new("TextLabel")
+	local BBHT = Instance.new("TextButton")
+	local TextLabel_6 = Instance.new("TextLabel")
+	local TextLabel_7 = Instance.new("TextLabel")
+	local Frame_3 = Instance.new("Frame")
+	local UIListLayout_3 = Instance.new("UIListLayout")
+	local Box_R = Instance.new("TextBox")
+	local Box_G = Instance.new("TextBox")
+	local Box_B = Instance.new("TextBox")
+	local TextLabel_8 = Instance.new("TextLabel")
+	local ESPSection_2 = Instance.new("Frame")
+	local UIListLayout_4 = Instance.new("UIListLayout")
+	local OE = Instance.new("TextButton")
+	local OTC = Instance.new("TextButton")-- Made By Mick Gordon
+	local Frame_4 = Instance.new("Frame")
+	local Slider1 = Instance.new("Frame")
+	local UICorner_5 = Instance.new("UICorner")
+	local Fill3 = Instance.new("Frame")
+	local UICorner_6 = Instance.new("UICorner")
+	local UIGradient_3 = Instance.new("UIGradient")
+	local TriggerOutTans = Instance.new("TextButton")
+	local Numbers_3 = Instance.new("TextLabel")
+	local TextLabel_9 = Instance.new("TextLabel")
+	local Frame_5 = Instance.new("Frame")
+	local Slider2 = Instance.new("Frame")
+	local UICorner_7 = Instance.new("UICorner")
+	local Fill4 = Instance.new("Frame")
+	local UICorner_8 = Instance.new("UICorner")
+	local UIGradient_4 = Instance.new("UIGradient")
+	local TriggerFill = Instance.new("TextButton")
+	local Numbers_4 = Instance.new("TextLabel")
+	local TextLabel_10 = Instance.new("TextLabel")
+	local TextLabel_11 = Instance.new("TextLabel")
+	local Frame_6 = Instance.new("Frame")
+	local UIListLayout_5 = Instance.new("UIListLayout")
+	local Outlines_R = Instance.new("TextBox")
+	local Outlines_G = Instance.new("TextBox")
+	local Outlines_B = Instance.new("TextBox")
+	local TextLabel_12 = Instance.new("TextLabel")
+	local Frame_7 = Instance.new("Frame")
+	local UIListLayout_6 = Instance.new("UIListLayout")
+	local FillOutlines_R = Instance.new("TextBox")
+	local FillOutlines_G = Instance.new("TextBox")
+	local FillOutlines_B = Instance.new("TextBox")
+	local Tracerssection = Instance.new("Frame")
+	local UIListLayout_7 = Instance.new("UIListLayout")
+	local TE = Instance.new("TextButton")
+	local TTC = Instance.new("TextButton")
+	local TTCOlor = Instance.new("TextButton")
+	local Frame_8 = Instance.new("Frame")
+	local UIListLayout_8 = Instance.new("UIListLayout")
+	local Tracers_R = Instance.new("TextBox")
+	local Tracers_G = Instance.new("TextBox")
+	local Tracers_B = Instance.new("TextBox")-- Made By Mick Gordon
+	local Unknown = Instance.new("Frame")
+	local UIListLayout_9 = Instance.new("UIListLayout")
+	local TextLabel_13 = Instance.new("TextLabel")
+	local TextLabel_14 = Instance.new("TextLabel")
+	local Open = Instance.new("Frame")
+	local TextButton = Instance.new("TextButton")
+	local connections = {}
+	-- Made By Mick Gordon
+	function isVisible(p, ...)
+	
+		if not (DeleteMob.Aimbot.WallCheck == true) then
+			return true
+		end
+	
+		return #CurrentCam:GetPartsObscuringTarget({ p }, { CurrentCam, PLAYER.Character, ... }) == 0 
+	end-- Made By Mick Gordon
+	
+	function CameraGetClosestToMouse(Fov)
+		local AimFov = Fov
+		local targetPos = nil
+	
+		for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+			if v ~= PLAYER then
+				if DeleteMob.Aimbot.TeamCheck == true then
+					if v.Character and v.Character:FindFirstChild(DeleteMob.Aimbot.AimPart) and v.Character.Humanoid and v.Character.Humanoid.Health > 0 and not (v.Team == PLAYER.Team) then
+						local screen_pos, on_screen = WorldToViewportPoint(CurrentCam, v.Character[DeleteMob.Aimbot.AimPart].Position)
+						local screen_pos_2D = Vector2.new(screen_pos.X, screen_pos.Y)
+						local new_magnitude = (screen_pos_2D - mouseLocation(UIS)).Magnitude
+						if on_screen and new_magnitude < AimFov and isVisible(v.Character[DeleteMob.Aimbot.AimPart].Position, v.Character.Head.Parent) then
+							AimFov = new_magnitude
+							targetPos = v-- Made By Mick Gordon
+						end
+					end-- Made By Mick Gordon
+				else
+					if v.Character and v.Character:FindFirstChild(DeleteMob.Aimbot.AimPart) and v.Character.Humanoid and v.Character.Humanoid.Health > 0 then
+						local screen_pos, on_screen = WorldToViewportPoint(CurrentCam, v.Character[DeleteMob.Aimbot.AimPart].Position)
+						local screen_pos_2D = Vector2.new(screen_pos.X, screen_pos.Y)
+						local new_magnitude = (screen_pos_2D - mouseLocation(UIS)).Magnitude
+						if on_screen and new_magnitude < AimFov and isVisible(v.Character[DeleteMob.Aimbot.AimPart].Position, v.Character.Head.Parent) then
+							AimFov = new_magnitude
+							targetPos = v
+						end
+					end
+				end
+			end
+		end
+		return targetPos
+	end
+	
+	
+	local function aimAt(pos, smooth)
+		local AimPart = pos.Character:FindFirstChild(DeleteMob.Aimbot.AimPart)
+		if AimPart then
+			local LookAt = nil
+			local Distance = math.floor(0.5+(PLAYER.Character:FindFirstChild"HumanoidRootPart".Position - pos.Character:FindFirstChild"HumanoidRootPart".Position).magnitude)
+			if Distance > 100  then
+				local distChangeBig = Distance / 10
+				LookAt = CurrentCam.CFrame:PointToWorldSpace(Vector3.new(0,0,-smooth * distChangeBig)):Lerp(AimPart.Position,.01) -- No one esle do camera smoothing ? tf
+			else-- Made By Mick Gordon
+				local distChangeSmall = Distance / 10
+				LookAt = CurrentCam.CFrame:PointToWorldSpace(Vector3.new(0,0,-smooth * distChangeSmall)):Lerp(AimPart.Position,.01) -- No one esle do camera smoothing ? tf
+			end
+			CurrentCam.CFrame = CFrame.lookAt(CurrentCam.CFrame.Position, LookAt)
+		end
+	end
+	
+	-- Made By Mick Gordon
+	game:GetService('RunService').RenderStepped:connect(function()
+	
+		-- Aimbot Check
+		if DeleteMob.Aimbot.Enabled == true then 
+			if UIS:IsMouseButtonPressed(Enum.UserInputType[DeleteMob.Aimbot.Keybind]) then
+				local _pos = CameraGetClosestToMouse(re)
+				if _pos then
+					aimAt(_pos, DeleteMob.Aimbot.Smoothing)
+				end
+			end
+		end 
+	
+		-- Fov
+		local acc = DeleteMob.Aimbot.Smoothing / 2	
+		local posd = UIS:GetMouseLocation() 
+		FOVFFrame.Position = UDim2.new(0, posd.X, 0, posd.Y - 36)
+		FOVFFrame.Size = UDim2.new(0, DeleteMob.Aimbot.Fov + acc, 0, DeleteMob.Aimbot.Fov + acc)
+		FOVFFrame.Visible = DeleteMob.Aimbot.ShowFov
+		FOVFFrame.BackgroundColor3 = DeleteMob.Aimbot.FovFillColor
+		FOVFFrame.Transparency = DeleteMob.Aimbot.FovFillTransparency
+	
+		UIStroke.Color = DeleteMob.Aimbot.FovFillColor
+		UIStroke.Transparency = DeleteMob.Aimbot.FovTransparenct
+		UIStroke.Thickness = DeleteMob.Aimbot.Thickness
+	end)
+	
+	keyCode.MouseButton1Down:Connect(function()
+	
+		print("e")
+		if on then
+			local newt = tonumber(nm.Text)
+			re = newt
+	
+			DeleteMob.Aimbot.Fov = re
+			on = false
+			DeleteMob.Aimbot.Enabled = true
+			DeleteMob.Aimbot.ShowFov = true
+		
+			
+	
+	
+	
+	
+		
+	
+		else
+		on = true
+			DeleteMob.Aimbot.Enabled = false
+			DeleteMob.Aimbot.ShowFov = false
+	
+	end
+	end)
+	
+		
+	
+	
+	yt.MouseButton1Down:Connect(function()
+		if no then
+			no = false
+			DeleteMob.Aimbot.WallCheck = true
+	
+	
+	
+	
+	
+	
+	
+		else
+			no = true
+			DeleteMob.Aimbot.WallCheck = false
+	
+		end
+	end)
+	
+	
+	zx.MouseButton1Down:Connect(function()
+		if ze then
+			ze = false
+			DeleteMob.Aimbot.TeamCheck = true
+	
+	
+	
+	
+	
+	
+	
+		else
+			ze = true
+			DeleteMob.Aimbot.TeamCheck = false
+	
+		end
+	end)
+end
+coroutine.wrap(MDKD_fake_script)()
+local function LMQBWMY_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local TweenService = game:GetService("TweenService")
+	local Button = script.Parent
+	local canClicke = true
+	-- Function to play the button press animation
+	
+	
+	-- Function to play the button press animation
+	local function ButtonPressAnimation()
+		-- Define the properties for the tween animation
+		local originalSize = Button.Size
+		local pressedSize = UDim2.new(originalSize.X.Scale, originalSize.X.Offset - 5, originalSize.Y.Scale, originalSize.Y.Offset - 5)
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+		-- Create the tween for the button press animation
+		local pressTween = TweenService:Create(Button, tweenInfo, {Size = pressedSize})
+	
+		-- Define a separate tween to reverse the animation
+		local reverseTween = TweenService:Create(Button, tweenInfo, {Size = originalSize})
+	
+		-- Play the press animation
+		pressTween:Play()
+	
+		-- After a short delay, reverse the button size back to its original state
+		wait(0.1)
+		reverseTween:Play()
+	end
+	
+	-- Connect the function to the mouse button click event
+	
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Play the button press animation when clicked
+		if not canClicke then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClicke = false
+	
+		ButtonPressAnimation()
+		wait(0.8) -- Debounce period
+		canClicke = true
+		-- Add other actions you want to perform when the button is clicked here
+	end)
+end
+coroutine.wrap(LMQBWMY_fake_script)()
+local function GVDE_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local TweenService = game:GetService("TweenService")
+	local Button = script.Parent
+	local canClicke = true
+	-- Function to play the button press animation
+	
+	
+	-- Function to play the button press animation
+	local function ButtonPressAnimation()
+		-- Define the properties for the tween animation
+		local originalSize = Button.Size
+		local pressedSize = UDim2.new(originalSize.X.Scale, originalSize.X.Offset - 5, originalSize.Y.Scale, originalSize.Y.Offset - 5)
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+		-- Create the tween for the button press animation
+		local pressTween = TweenService:Create(Button, tweenInfo, {Size = pressedSize})
+	
+		-- Define a separate tween to reverse the animation
+		local reverseTween = TweenService:Create(Button, tweenInfo, {Size = originalSize})
+	
+		-- Play the press animation
+		pressTween:Play()
+	
+		-- After a short delay, reverse the button size back to its original state
+		wait(0.1)
+		reverseTween:Play()
+	end
+	
+	-- Connect the function to the mouse button click event
+	
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Play the button press animation when clicked
+		if not canClicke then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClicke = false
+	
+		ButtonPressAnimation()
+		wait(0.8) -- Debounce period
+		canClicke = true
+		-- Add other actions you want to perform when the button is clicked here
+	end)
+end
+coroutine.wrap(GVDE_fake_script)()
+local function TVDWZYQ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local TweenService = game:GetService("TweenService")
+	local Button = script.Parent
+	local canClicke = true
+	-- Function to play the button press animation
+	
+	
+	-- Function to play the button press animation
+	local function ButtonPressAnimation()
+		-- Define the properties for the tween animation
+		local originalSize = Button.Size
+		local pressedSize = UDim2.new(originalSize.X.Scale, originalSize.X.Offset - 5, originalSize.Y.Scale, originalSize.Y.Offset - 5)
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+		-- Create the tween for the button press animation
+		local pressTween = TweenService:Create(Button, tweenInfo, {Size = pressedSize})
+	
+		-- Define a separate tween to reverse the animation
+		local reverseTween = TweenService:Create(Button, tweenInfo, {Size = originalSize})
+	
+		-- Play the press animation
+		pressTween:Play()
+	
+		-- After a short delay, reverse the button size back to its original state
+		wait(0.1)
+		reverseTween:Play()
+	end
+	
+	-- Connect the function to the mouse button click event
+	
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Play the button press animation when clicked
+		if not canClicke then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClicke = false
+	
+		ButtonPressAnimation()
+		wait(0.8) -- Debounce period
+		canClicke = true
+		-- Add other actions you want to perform when the button is clicked here
+	end)
+end
+coroutine.wrap(TVDWZYQ_fake_script)()
+local function HQTIXH_fake_script() -- TextButton_5.esp 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local PLAYER = game.Players.LocalPlayer
+	local CurrentCam  = game.Workspace.CurrentCamera
+	local UIS = game:GetService("UserInputService")-- Made By Mick Gordon
+	local WorldToViewportPoint = CurrentCam.WorldToViewportPoint
+	local mouseLocation = UIS.GetMouseLocation
+	local keyCode = script.Parent
+	local on = true
+	local startSPeed =  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed
+	script.Parent.Parent.Parent.Parent.Fov.Frame.TextBox.Text = startSPeed
+	
+	keyCode.MouseButton1Down:Connect(function()
+	
+		if on then
+			on = false
+			local getnew = tonumber(script.Parent.Parent.Parent.Parent.Fov.Frame.TextBox.Text)
+			PLAYER.Character.Humanoid.WalkSpeed = getnew
+	
+	
+	
+	
+		
+	
+		else
+		on = true
+			PLAYER.Character.Humanoid.WalkSpeed = startSPeed
+	end
+	end)
+	
+end
+coroutine.wrap(HQTIXH_fake_script)()
+local function JHML_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local TweenService = game:GetService("TweenService")
+	local Button = script.Parent
+	local canClicke = true
+	-- Function to play the button press animation
+	
+	
+	-- Function to play the button press animation
+	local function ButtonPressAnimation()
+		-- Define the properties for the tween animation
+		local originalSize = Button.Size
+		local pressedSize = UDim2.new(originalSize.X.Scale, originalSize.X.Offset - 5, originalSize.Y.Scale, originalSize.Y.Offset - 5)
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+		-- Create the tween for the button press animation
+		local pressTween = TweenService:Create(Button, tweenInfo, {Size = pressedSize})
+	
+		-- Define a separate tween to reverse the animation
+		local reverseTween = TweenService:Create(Button, tweenInfo, {Size = originalSize})
+	
+		-- Play the press animation
+		pressTween:Play()
+	
+		-- After a short delay, reverse the button size back to its original state
+		wait(0.1)
+		reverseTween:Play()
+	end
+	
+	-- Connect the function to the mouse button click event
+	
+	-- Connect the function to the mouse button click event
+	script.Parent.MouseButton1Down:Connect(function()
+		-- Play the button press animation when clicked
+		if not canClicke then
+			return
+		end
+	
+		-- Disable clicking for debounce period
+		canClicke = false
+	
+		ButtonPressAnimation()
+		wait(0.8) -- Debounce period
+		canClicke = true
+		-- Add other actions you want to perform when the button is clicked here
+	end)
+end
+coroutine.wrap(JHML_fake_script)()
+local function XNFMU_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	while true do
+		wait()
+		script.Parent.Text = game.Players.LocalPlayer.Name
+	end
+end
+coroutine.wrap(XNFMU_fake_script)()
+local function YXDU_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	while true do
+		wait()
+		script.Parent.Text = game.Name
+	end
+end
+coroutine.wrap(YXDU_fake_script)()
+local function ZSTIEBD_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', Time)
+
+	while true do
+		
+		local Unix = os.time()
+		
+	
+		
+		local Time = script.Parent
+		Time.Text = os.date("       %I:%M: %p", Unix)
+		
+		task.wait(1)
+	end
+end
+coroutine.wrap(ZSTIEBD_fake_script)()
+local function PIAHGC_fake_script() -- Frame_19.LocalScript 
+	local script = Instance.new('LocalScript', Frame_19)
+
+	local Options = script.Parent
+	local Page = script.Parent.Parent.Parent.Parent.Menu
+	local TweenService = game:GetService("TweenService")
+	local Out = 0.5
+	local In = 1
+	
+	Page.PageSystem:JumpTo(Page.ddd)
+	script.Parent.cheat.Settings.TextButton.MouseButton1Down:Connect(function()
+		Page.PageSystem:JumpTo(Page.aaa)
+	end)
+	script.Parent.tab.Settings.TextButton.MouseButton1Down:Connect(function()
+		Page.PageSystem:JumpTo(Page.ccc)
+	end)
+	script.Parent.info.Settings.TextButton.MouseButton1Down:Connect(function()
+		Page.PageSystem:JumpTo(Page.ddd)
+	end)
+	script.Parent.speed.Settings.TextButton.MouseButton1Down:Connect(function()
+		Page.PageSystem:JumpTo(Page.bbb)
+	end)
+	
+	
+	
+end
+coroutine.wrap(PIAHGC_fake_script)()
